@@ -33,4 +33,4 @@ winget install Docker.DockerDesktop
 ### Install Docker on linux
 _DO NOT use apt/yum/dnf directly if you are not sure, as you may get the older version of docker_
 
-For linux user, please go the here to find more details: https://docs.docker.com/engine/install/
+For linux user, please go the [here](https://docs.docker.com/engine/install/) to find more details: https://docs.docker.com/engine/install/
