@@ -35,10 +35,10 @@ For Linux users, please go [here](https://docs.docker.com/engine/install/) to fi
 
 
 
-#R Packages
+# R Packages
 If you're using the Docker container you don't need to install these. Else if you want to run the code on your laptop or desktop install these packages.
 
-R-code:
+### R-code:
 ```{}
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
