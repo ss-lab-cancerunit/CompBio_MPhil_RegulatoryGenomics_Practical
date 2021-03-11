@@ -53,6 +53,8 @@ Now, you may follow these three steps:
 
 Docker packed all the packages and software inside. Hopefully, it would make life easier now!
 
+** you may need to login the docker terminal: `docker exec -ti -u 0 your_container_id /bin/bash`**
+
 # R Packages
 If you're using the Docker container you don't need to install these. If you want to run the code on your laptop or desktop, then install these packages.
 
