@@ -36,7 +36,7 @@ For Linux users, please go [here](https://docs.docker.com/engine/install/) to fi
 
 
 # R Packages
-If you're using the Docker container you don't need to install these. Else if you want to run the code on your laptop or desktop install these packages.
+If you're using the Docker container you don't need to install these. If you want to run the code on your laptop or desktop, then install these packages.
 
 ### R-code:
 ```{}
