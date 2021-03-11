@@ -33,7 +33,25 @@ _DO NOT use apt/yum/dnf directly if you are not sure, as you may get the older v
 
 For Linux users, please go [here](https://docs.docker.com/engine/install/) to find more details: https://docs.docker.com/engine/install/
 
+- Install Docker Engine on [CentOS](https://docs.docker.com/engine/install/centos/)
+- Install Docker Engine on [Debian](https://docs.docker.com/engine/install/debian/)
+- Install Docker Engine on [Fedora](https://docs.docker.com/engine/install/fedora/)
+- Install Docker Engine on [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+- Install Docker Engine from [binaries](https://docs.docker.com/engine/install/binaries/)
 
+[non-root](https://docs.docker.com/engine/install/linux-postinstall/)
+
+# Run the docker container
+_The docker container is based on [rocker/rstudio](https://hub.docker.com/r/rocker/rstudio). Please make sure you have docker installed before running it!_
+
+Now, you may follow these three steps:
+1. Pull docker image: `docker pull xihajun/mphil_practical_ss:latest`
+2. Run docker with sudo access: `docker run -d -p 8787:8787 -e ROOT=TRUE -e PASSWORD=123456 xihajun/mphil_practical_ss:latest`
+3. Access this link: http://127.0.0.1:8787
+4. Login (by default: `username: rstudio`, `password:123456`)
+5. Enjoy!
+
+Docker packed all the packages and software inside. Hopefully, it would make life easier now!
 
 # R Packages
 If you're using the Docker container you don't need to install these. If you want to run the code on your laptop or desktop, then install these packages.
