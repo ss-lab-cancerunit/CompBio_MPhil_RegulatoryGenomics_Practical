@@ -41,8 +41,8 @@ For Linux users, please go [here](https://docs.docker.com/engine/install/) to fi
 
 [non-root](https://docs.docker.com/engine/install/linux-postinstall/)
 
-# Run the docker container
-_The docker container is based on [rocker/rstudio](https://hub.docker.com/r/rocker/rstudio). Please make sure you have docker installed before running it!_
+# Pull & Run docker image
+_Our docker image is based on [rocker/rstudio](https://hub.docker.com/r/rocker/rstudio). Please make sure you have docker installed before running it!_
 
 Now, you may follow these three steps:
 1. Pull docker image: `docker pull xihajun/mphil_practical_ss:latest`
