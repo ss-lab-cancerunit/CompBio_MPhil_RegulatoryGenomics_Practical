@@ -32,3 +32,21 @@ winget install Docker.DockerDesktop
 _DO NOT use apt/yum/dnf directly if you are not sure, as you may get the older version of docker_
 
 For Linux users, please go [here](https://docs.docker.com/engine/install/) to find more details: https://docs.docker.com/engine/install/
+
+
+
+#R Packages
+If you're using the Docker container you don't need to install these. Else if you want to run the code on your laptop or desktop install these packages.
+
+R-code:
+```{}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+options(timeout = 300)
+
+#uncomment! if need to run
+
+#BiocManager::install(c("BiocStyle","EnsDb.Hsapiens.v86","org.Hs.eg.db","STRINGdb","ChIPpeakAnno","GenomicRanges","EnsDb.Hsapiens.v86","rGREAT","circlize","rGREAT","circlize","STRINGdb", "rGREAT", "circlize"))
+```
+
+
