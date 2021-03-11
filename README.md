@@ -46,7 +46,7 @@ options(timeout = 300)
 
 #uncomment! if need to run
 
-#BiocManager::install(c("BiocStyle","EnsDb.Hsapiens.v86","org.Hs.eg.db","STRINGdb","ChIPpeakAnno","GenomicRanges","EnsDb.Hsapiens.v86","rGREAT","circlize","rGREAT","circlize","STRINGdb", "rGREAT", "circlize"))
+BiocManager::install(c("BiocStyle","EnsDb.Hsapiens.v86","org.Hs.eg.db","STRINGdb","ChIPpeakAnno","GenomicRanges","EnsDb.Hsapiens.v86","rGREAT","circlize","rGREAT","circlize","STRINGdb", "rGREAT", "circlize"))
 ```
 
 
