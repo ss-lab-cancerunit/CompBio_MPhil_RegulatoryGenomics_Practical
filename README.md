@@ -1,5 +1,5 @@
 # Docker installation
-This repo includes the docker installation instructions for macOS, windows as well as Linux.
+The first section includes the docker installation instructions for macOS, windows as well as Linux.
 
 ## Install Docker Desktop on macOS
 _In order to install Docker Desktop on macOS, your macOS will have to be version 10.14 or newer._
