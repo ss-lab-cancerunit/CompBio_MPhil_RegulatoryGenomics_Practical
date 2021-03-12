@@ -69,4 +69,5 @@ options(timeout = 300)
 BiocManager::install(c("BiocStyle","EnsDb.Hsapiens.v86","org.Hs.eg.db","STRINGdb","ChIPpeakAnno","GenomicRanges","EnsDb.Hsapiens.v86","rGREAT","circlize","rGREAT","circlize","STRINGdb", "rGREAT", "circlize"))
 ```
 
+[HTML viewer](http://www.edu-ing.cn/sslab/tutorial.html)
 
