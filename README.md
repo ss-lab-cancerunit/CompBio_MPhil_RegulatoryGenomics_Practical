@@ -55,6 +55,24 @@ Docker packed all the packages and software inside. Hopefully, it would make lif
 
 ** you may need to login the docker terminal: `docker exec -ti -u 0 your_container_id /bin/bash`**
 
+# Extract data from docker
+You can either use `docker cp` or create a new docker image to save the change.
+## `docker cp` (eg. extract the folder MPhil_Practical_SS)
+- `docker cp container_name:/home/rstudio/MPhil_Practical_SS DEST_PATH`
+
+
+_(Note that DEST_PATH is the path in your machine. You can find out more [here](https://docs.docker.com/engine/reference/commandline/cp/))_
+
+## Save as a custimised docker image 
+- Quit your docker terminal
+- Check your docker container id: `docker ps -a`
+- Commit your change `docker commit [CONTAINER_ID] [new_image_name]`
+  - If you want to save the image, a good way is to push it onto docker hub, you will need to create a new docker account [here](https://hub.docker.com)
+  - Create a public repository (eg.dockerdisco) like what you do at Github
+  - Now you can commit: `docker commit [CONTAINER_ID] yourusername/dockerdisco:tag`
+- After committing, you are able to push. `docker push yourusername/dockerdisco:tag`
+
+
 # R Packages
 If you're using the Docker container you don't need to install these. If you want to run the code on your laptop or desktop, then install these packages.
 
