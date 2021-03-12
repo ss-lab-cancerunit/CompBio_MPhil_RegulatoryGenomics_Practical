@@ -58,6 +58,7 @@ Docker packed all the packages and software inside. Hopefully, it would make lif
 # Extract data from docker
 You can either use `docker cp` or create a new docker image to save the change.
 ## `docker cp` (eg. extract the folder MPhil_Practical_SS)
+- Check your container_name using `docker ps` *(note: it is not the container id)*
 - `docker cp container_name:/home/rstudio/MPhil_Practical_SS DEST_PATH`
 
 
